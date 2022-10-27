@@ -1,0 +1,47 @@
+section .tag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  height: calc(100vh - 120px);
+  width: 100%;
+  padding: 6%;
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+}
+.tag .tags {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+}
+.tags textarea {
+  resize: vertical;
+  width: 100%;
+  max-height: 30vh;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.tags textarea:focus {
+  outline: none;
+}
+.tags button {
+  width: 140px;
+  height: 50px;
+  border-radius: 11px;
+  border: none;
+  font-size: 20px;
+  font-weight: 800;
+  background: #fff;
+  color: black;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.tags button:hover {
+  background: #0f0c29;
+  color: #fff;
+}
